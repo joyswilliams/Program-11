@@ -1,0 +1,6 @@
+def show(x):
+    for i in x:
+        if i[0]=="A" or i[0]=="a":
+            print(i)
+y=eval(input("enter a string as list"))
+show(y)
