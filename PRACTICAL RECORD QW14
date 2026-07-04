@@ -1,0 +1,12 @@
+def count(x):
+    p=0
+    n=0
+    for i in x:
+        if i>0:
+            p+=1
+        else:
+            n+=1
+    print("Positive numbers=", p)
+    print("Negative numbers=", n)
+y=eval(input("enter a list:"))
+count(y)
