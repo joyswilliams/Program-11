@@ -1,0 +1,5 @@
+def min_max(x):
+    print("Maximum=",max(x))
+    print("Minimum=",min(x))
+y=eval(input("enter a list"))
+min_max(y)
