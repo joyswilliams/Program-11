@@ -1,0 +1,9 @@
+def check(m,d):
+    if m in d:
+        print("present")
+    else:
+        d[m]=input("Location:")
+        print(d)
+d={"Tag Mahal":"Agra","Red":"Delhi","Hawa Mahal":"Jaipur"}
+m=input("enter a monument")
+check(m,d)
