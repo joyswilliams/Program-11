@@ -1,0 +1,4 @@
+def count(x):
+    print(x.count("THE")+x.count("the"))
+y=str(input("enter a string"))
+count(y)
