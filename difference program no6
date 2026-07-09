@@ -1,0 +1,19 @@
+def DIFFER(x):
+    s = x[0]
+    b = x[0]
+    for i in range(len(x)):
+        if x[i] < s:
+            s = x[i]
+        if x[i] > b:
+            b = x[i]
+    d = b - s
+    print("Difference=", d)
+
+limit = int(input("Enter the number of elements"))
+lst1 = [0] * limit
+print("Enter the elements")
+for j in range(limit):
+    lst1[j] = int(input())   
+
+print("The list is", lst1)
+DIFFER(lst1)
